@@ -100,7 +100,7 @@ Here we are checking for the relationship between various features and our targe
 
 ### i) Doctor's Recommendation
 
-![Image](Visualizations/Doctor Recommendation.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/56ac0110-05df-49da-8911-4b8d5d104da3)
 
 This is the most important predictive feature, i.e. having a doctor recommend getting the flu vaccine. 
 
@@ -108,13 +108,13 @@ From the graph, people who had their doctors recommend to them the vaccine, had 
 
 ### ii) Respondent's opinion about seasonal flu vaccine effectiveness.
 
-![Image](Visualizations/Vaccine effectiveness.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/0d2051ab-7b20-4be4-8875-110e38edd6f3)
 
 From the graph, people that rate the vaccine as 5 (Very Effective) have a mean vaccination rate of 70% and hence are more likely to have gotten the vaccine as compared to the other respondents. 
 
 ### iii) Health Worker
 
-![Image](Visualizations/Health worker.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/f90f9057-78e7-43b6-a564-3dafd9885503)
 
 From the graph, Health workers had a higher mean vaccination rate of 65% as compared to Non-Health workers whose rate was 45%.
 
@@ -122,7 +122,7 @@ Health workers are more likely to get the flu vaccine than the rest of the popul
 
 ### iv) Health Insurance
 
-![Image](Visualizations/Health insurance.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/aceca7eb-8831-47db-8754-7afc7796c2ea)
 
 From the graph, People with insurance had a higher mean vaccination rate of 54% as compared to 23% for people with no insurance.
 
@@ -130,7 +130,7 @@ People with health insurance are more likely to have gotten the vaccine whereas 
 
 ### v) Perceived Risk of Getting Sick from Flu Vaccine
 
-![Image](Visualizations/Perceived risk.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/9fe9959d-5907-4810-83b0-8faa98cb923a)
 
 Here a higher rating means the individual is more concerned about getting sick from the flu vaccine itself. 
 
@@ -140,7 +140,7 @@ From the graph, people with a perceived risk rating of 1 (Not at all worried) ha
 
 ### vi) Income Level
 
-![Image](Visualizations/Income level.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/68aabdb9-27e8-43e3-a57f-490c01f26d16)
 
 This is in reference to the household annual income of respondents with respect to 2008 Census poverty thresholds.
 
@@ -148,19 +148,20 @@ From the graph, individuals living with a household income below the 2008 Census
 
 ### vii) Race
 
-![Image](Visualizations/Race.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/1280aae5-3d1e-47a4-89a1-2f1a10b65c9b)
+
 
 From the graph, the mean vaccination rates is fairly distributed amongst the different races, with White people being the highest likely to get vaccinated (a mean vaccination rate of 49%), while Hispanic people having the lowest vaccination rate at 34%.
 
 ### viii) Chronic Medical Condition
 
-![Image](Visualizations/Chronic med condition.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/477d1d3b-913d-4182-b366-8de7617bc203)
 
 From the graph, people with a chronic medical condition such as asthma or any other lung condition, diabetes, a heart condition or a weakened immune system, are highly likely to get vaccinated, with a mean vaccination rate of 60%, as compared to people with no chronic medical condition who have a vaccine uptake rate of 42%.
 
 ### ix) Behavior (touching face)
 
-![Image](Visualizations/Behavior(touching face).png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/f6774e59-8c0d-4380-8d1d-5d9e4293d780)
 
 From the graph, people who have avoided touching their face(eyes, nose, or mouth) have a higher mean vaccination rate of 51%.
 
@@ -168,7 +169,7 @@ This could be due to the fact that they want to combine all the efforts at their
 
 ### x) Education
 
-![Image](Visualizations/Education.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/f2f1391a-f6f0-4d11-b911-82726f1e096e)
 
 The proportion of people vaccinated within each level of education category increases with increasing level of education. 
 
@@ -182,7 +183,7 @@ As we can see from the graph, college graduates had the highest mean vaccination
 
 - Create a variable that represents how much an individual has done behaviorally to avoid the flu, aside from getting vaccinated, by summing up all behavioral variables. These are all binary columns with **1** representing **YES**, meaning the person has engaged in a behavior that reduces the risk of contracting the flu. By taking the sum across these columns, a higher score represents a more cautious, flu-conscious individual.
 
-![Image](Visualizations/Behavior Score.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/3805e3bd-d395-4809-809b-9fbe613b6a9a)
 
 
 #### *Inference*
@@ -195,7 +196,7 @@ From the above bar plot, we can denote that:
 
 - Create a variable that represents an individual's overall risk for developing flu-related complications. Some individuals are naturally at higher risk of developing complications. This includes people working in the healthcare industry, people 65 years and older, children 6 months or younger, and people with chronic medical conditions such as lung conditions, diabetes and heart conditions.
 
-![Image](Visualizations/Risk Score.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/a36d35ef-718b-47cf-a1e3-ab3f24b7a583)
 
 #### *Inference*
 
@@ -427,7 +428,7 @@ From the GridSearch cross-validation of 3 folds;
 
 Overall, the `behavior_score` variable provides a quantitative representation of individuals' engagement in flu-preventive behaviors/measures. The majority of individuals demonstrate a moderate to high level of caution, as indicated by their behavior scores. The distribution of scores highlights the variability in behavior across the population, with some individuals exhibiting lower levels of engagement and others being more proactive in flu prevention.
 
-![Image](Visualizations/Conclusion no.2.png)
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/82347cb0-f7ca-4c76-98df-b9788b30d408)
 
 From the graph, people who engage in at least 6 out of the 7 preventive measures have a mean vaccination rate of 53%.
 
@@ -453,7 +454,9 @@ The best and final model is the tuned XGBoost based on the below:
 - This will enable for consistency and accurate assessment of our trained model in terms of its ability to generalize to new unseen datasets.
 - After all the preprocessing steps, we make predictions and finally compare and visualize our predictions to the actual labels, to get a sense of how our best model is performing, as shown by the plot below.
 
-![Image](Visualizations/Actual vs Predictions.png)
+
+![image](https://github.com/BrysonShitsukane77/Predicting-Flu-Vaccination-Status/assets/124519816/421f80a3-e483-4d1c-b912-1891a3cc4e71)
+
 
 - From the plot above, we can see that our model is actually performing quite well in predicting both classes! With just some minor inaccuracy.
 
